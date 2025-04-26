@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ShoppingAppSuite">
+    <test name="BuyingProductTest">
+        <classes>
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+    <test name="FakerApiTest">
+        <classes>
+            <class name="apiTests.FakerApiTest"/>
+        </classes>
+    </test>
+</suite>
