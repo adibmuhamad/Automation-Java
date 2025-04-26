@@ -16,12 +16,14 @@ This framework supports automated UI testing for Android APKs and API testing
 ## Installation & Setup
 
 - Clone the repo
-- Install dependencies : mvn clean install
-- Start appium server : appium
+- Install dependencies
+  - mvn clean install
+- Start appium server
+  - appium
 - Launch emulator or connect device
 - Go to src/main/java/utils/DriverFactory.java
-- Then change the device name with your emulator or physical device name and set platform version
-- Change the android driver url based on your appium server url
+  - Then change the device name with your emulator or physical device name and set platform version
+  - Change the android driver url based on your appium server url
 
 ## Running Tests
 
